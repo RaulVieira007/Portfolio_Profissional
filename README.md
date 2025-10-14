@@ -1,73 +1,37 @@
-# React + TypeScript + Vite
+<img width="1844" height="913" alt="image" src="https://github.com/user-attachments/assets/b96c4e1b-df62-4522-8496-6281bf44f4bb" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+🧑‍💻 Portfólio — Raul Vieira
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este é o meu portfólio pessoal, desenvolvido com React, TypeScript e TailwindCSS, com o objetivo de apresentar meus projetos, habilidades e trajetória como Desenvolvedor Full Stack.
+O design foi pensado para transmitir modernidade e tecnologia, utilizando tons escuros e efeitos em neon azul para refletir meu estilo e identidade digital.
 
-## React Compiler
+🚀 Tecnologias utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+⚛️ React — criação de componentes dinâmicos e reativos
 
-## Expanding the ESLint configuration
+🧠 TypeScript — tipagem estática e código mais seguro e escalável
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+🎨 TailwindCSS — estilização moderna e responsiva
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+⚡ Vite — build rápido e eficiente para o ambiente de desenvolvimento
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+✨ Funcionalidades
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Seções de apresentação, projetos e habilidades
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Botão para download de currículo em PDF
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Design responsivo adaptado para desktop e dispositivos móveis
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Animações suaves e foco em UI/UX moderna
+
+🧠 Sobre mim
+
+Sou Raul Vieira, desenvolvedor apaixonado por tecnologia, código limpo e interfaces modernas.
+Meu objetivo é crescer como profissional na área de desenvolvimento e contribuir em projetos desafiadores que impactem positivamente o mundo digital.
+
+🔗 Acesse meu portfólio
+
+👉 Visualizar portfólio online
+ (adicione o link quando fizer o deploy)
